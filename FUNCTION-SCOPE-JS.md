@@ -201,10 +201,10 @@ identificar las funciones globales, locales, funciones de callback, expresions, 
 * **Cola de eventos()** : Es un mecanismo que permite manejar los eventos para un determinado elemento.
 
  - **(Linea 14)**
- ```javascript
-  $inputCard.on('input', function() {});
-   ```
 
+   ```javascript
+     $inputCard.on('input', function() {});
+     ```
 
 ## Referencias
 * [Funciones globales y locales](https://www.w3schools.com/js/js_scope.asp)
