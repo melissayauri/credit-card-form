@@ -195,21 +195,25 @@ identificar las funciones globales, locales, funciones de callback, expresions, 
         console.log('Verifique el numero de su tarjeta');
         desactiveButton();  
       }
+      ```
 
-    ```
-
-* **Cola de eventos()** : Es un mecanismo que permite manejar los eventos para un determinado elemento.
+*  **Cola de eventos()** : Es un mecanismo que permite manejar los eventos para un determinado elemento.
 
  - **(Linea 14)**
+ ```javascript
+  $inputCard.on('input', function() {});
+   ```
 
-   ```javascript
-     $inputCard.on('input', function() {});
-     ```
 
-## Referencias
-* [Funciones globales y locales](https://www.w3schools.com/js/js_scope.asp)
-* [Stamenents](https://www.youtube.com/watch?v=lTsTTAaR8bs)
-* [Expresiones](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions)
-* [Cola de eventos](http://casivaagustin.com.ar/index.php/javascript-enlace-de-eventos/)
-* [Contexto de ejecución](http://casivaagustin.com.ar/index.php/javascript-enlace-de-eventos/)
+##  Referencias
+ * [Funciones globales y locales](https://www.w3schools.com/js/js_scope.asp)
+
+ * [Stamenents](https://www.youtube.com/watch?v=lTsTTAaR8bs)
+
+ * [Expresiones](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+ * [Cola de eventos](http://casivaagustin.com.ar/index.php/javascript-enlace-de-eventos/)
+
+ * [Contexto de ejecución](http://casivaagustin.com.ar/index.php/javascript-enlace-de-eventos/)
+
 * [Pila de ejecución](https://hackernoon.com/execution-context-in-javascript-319dd72e8e2c)
