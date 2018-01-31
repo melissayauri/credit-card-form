@@ -195,7 +195,7 @@ identificar las funciones globales, locales, funciones de callback, expresions, 
         console.log('Verifique el numero de su tarjeta');
         desactiveButton();  
       }
-      ```
+```
 
 
 *  **Cola de eventos()** : Es un mecanismo que permite manejar los eventos para un determinado elemento.
